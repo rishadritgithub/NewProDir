@@ -25,7 +25,7 @@ class Application:
         c.execute("SELECT * FROM appointments")
         self.alldata=c.fetchall()
 # creating the frames in the window
-        self.main = Frame(window, width=1200, height=1000, bg="lightblue")
+        self.main = Frame(window, width=1600, height=1200, bg="lightblue")
 
         self.showdetailsframe = Frame(self.window)
         self.updateframe = Frame(self.window)
@@ -358,4 +358,3 @@ window.geometry("450x400")
 window.resizable(False, False)
 
 window.mainloop()
-modify Hospital_management.py
