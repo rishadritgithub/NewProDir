@@ -359,3 +359,4 @@ window.resizable(False, False)
 
 window.mainloop()
 modify Hospital_management.py
+new changes to Hospital_management.py
